@@ -1,0 +1,2 @@
+/home/pluto/Tokenshit/DiscordTokenStealer/bin/Release/net7.0/win10-x64/publish/DiscordTokenStealer.pdb
+/home/pluto/Tokenshit/DiscordTokenStealer/bin/Release/net7.0/win10-x64/publish/DiscordTokenStealer.exe

@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/pluto/Tokenshit/DiscordTokenStealer/DiscordTokenStealer.csproj": {}
+  },
+  "projects": {
+    "/home/pluto/Tokenshit/DiscordTokenStealer/DiscordTokenStealer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pluto/Tokenshit/DiscordTokenStealer/DiscordTokenStealer.csproj",
+        "projectName": "DiscordTokenStealer",
+        "projectPath": "/home/pluto/Tokenshit/DiscordTokenStealer/DiscordTokenStealer.csproj",
+        "packagesPath": "/home/pluto/.nuget/packages/",
+        "outputPath": "/home/pluto/Tokenshit/DiscordTokenStealer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pluto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "BouncyCastle.NetCore": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Security.Cryptography.ProtectedData": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[7.0.11, 7.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
